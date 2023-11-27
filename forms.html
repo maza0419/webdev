@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+
+    <body>
+         <h1>HTML FORMS</h1>
+        <hr>
+        <a href="index.html">Lesson 1</a>
+        <a href="lesson2.html">Lesson 2</a>
+        <a href="lesson3.html">Lesson 3</a>
+        <a href="lesson4.html">Lesson 4</a>
+        <a href="forms.html"> Forms</a>
+        <a href="signup.html" style="color: red;" >Register</a>
+        <a href="login.html" style="color: green;">Member</a>
+        <a href="tables.html">Tables</a>
+
+        <form action="">
+             <label>First Name:</label><br>
+             <input type="text" name="firstname" placeholder=" First name" ><br><br>
+       
+             <label>Last Name</label><br>
+             <input type="text" name="lastname" placeholder="Last Name"><br><br>
+
+             <label>Email Address</label><br>
+             <input type="email" name="email" placeholder="Email Address"><br><br>
+
+             <label>Phone Number</label><br>
+             <input type="phone" name="phone_number" placeholder="Phone"><br><br>
+
+             <label>Gendar</label>
+             <select name="gendar">
+                <option selected>-select-</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Anyone">Rather any one</option>
+                </select><br><br>
+
+             <label>Drop your messege</label><br>
+             <textarea name="message"></textarea><br>
+             <input type="submit" value="Send Message" />
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <hr>
+
+        <h3>Travel Reservation Form</h3>
+        <h5>*denote mandatory</h5>
+        <form action="">
+            <label>Full Name*:</label><br>
+            <input type="text" name="fullname" placeholder="Firstname Lastname"><br>
+
+            <label>Email address*:</label><br>
+            <input type="email" name="Email_address" placeholder="Email Address"><br>
+
+            <label>Select Tour Package*:</label><br>
+            <select name="selecttourpackage">
+                <option selected>GoTo</option>
+                <option value="VIP">Vip</option>
+                <option value="Executive">Executive</option>
+                <option value="Standard">Standard</option>        
+            </select><br>
+
+            <label>Arrival Date*:</label><br>
+            <input type="date" name="arrival_date" placeholder="dd/mm/yyyy"><br>
+
+            <label>Number of Persons*:</label><br>
+            <input type="text" name="number_of_persons" placeholder="Unknown_Type"><br>
+
+            <p>What Would You Want To Avail*: <br>
+               Boarding <input type="checkbox" /><br>
+               Fooding <input type="checkbox" /><br>
+               Sight Seeing <input type="checkbox" /></p>
+            
+            <label>Discount Coupn Code:</label><br>
+            <input type="text" name="discount_coupon_code" placeholder="Unknown_Type"><br>
+            
+            <p>Terms and Condition <br>
+               <input type="checkbox" />I agree <input type="checkbox" />I disagree </p>
+
+               <input type="submit" value="Complete Reservation" />
+        </form>
+
+        <br>
+        <br>
+        <br>
+        <hr>
+
+        <h2>Registration Form</h2>
+        
+        <table border="10">
+            <form action="">
+                <tr>
+                    <td>Enter Name</td>
+                    <td><input type="text" name="enter_name" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Password</td>
+                    <td><input type="password" name="enter_password" /></td>
+                </tr>
+                <tr>
+                    <td>Enter Address</td>
+                    <td><textarea name="message"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Select game</td>
+                    <td>
+                        <p>
+                            <input type="checkbox" />Hockey <br>
+                            <input type="checkbox" />Football <br>
+                            <input type="checkbox" />Badminton <br>
+                            <input type="checkbox" />Cricket <br>
+                            <input type="checkbox" />Volleyball
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input  type="checkbox" />Male
+                        <input type="checkbox" />Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>Select Your Age</td>
+                    <td><input type="number" name="select Your Age" /></td>
+                </tr>
+                <tr>
+                    <td>Select Photo</td>
+                    <td><input type="button" value="Browse..." /></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Click Me." /></td>
+                    <td><input type="submit" value="Submit Form" /></td>
+                </tr>
+                
+            </form>
+        </table>
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
